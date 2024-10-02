@@ -1,6 +1,8 @@
 import React from 'react';
 
 import laptop from '../images/illustration-laptop-mobile.svg';
+import laptopDesk from '../images/illustration-laptop-desktop.svg';
+
 export default function Section1() {
     return (
         <section id="blogr-end">
@@ -21,7 +23,8 @@ export default function Section1() {
               </article>
             </div>
             <div className='img-container'>
-              <img src={ laptop } alt="laptop--image" />
+              <img src={ laptop } alt="laptop--image" className="mobile" />
+              <img src={ laptopDesk  } alt="laptop--image" className="desk" id="dt-2" />
             </div>
             </div>
         </section>

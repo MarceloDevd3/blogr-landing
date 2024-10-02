@@ -1,10 +1,11 @@
 import React from 'react';
 import editorIMG from '../images/illustration-editor-mobile.svg';
+import editorIMGDesk from '../images/illustration-editor-desktop.svg';
 
 export default function Section1() {
     return (
         <section id="blogr-container">
-            <h3 className="blogr-title blue">Designed for the future</h3>
+            <h3 className="blogr-title blue" id="ft-test">Designed for the future</h3>
             <div className='container'>
             <div id="info-blogr">
               <article id="info-1">
@@ -22,7 +23,8 @@ export default function Section1() {
               </article>
             </div>
             <div className='img-container'>
-              <img src={ editorIMG  } alt="editor--image" />
+              <img src={ editorIMG  } alt="editor--image" className="mobile" />
+              <img src={ editorIMGDesk } alt="editor--image" className="desk" id="dt-1"/>
             </div>
             </div>
         </section>

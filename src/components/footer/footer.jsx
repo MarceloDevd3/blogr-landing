@@ -9,7 +9,7 @@ export default function footer() {
             <img src={logo} alt="footer--logo"/>
           </div>
 
-          <div className="footer-item">
+          <div className="footer-item ft1">
             <ul>
                 <li className='item--title'>
                  <span className='space'> Product</span>
@@ -24,7 +24,7 @@ export default function footer() {
             </ul>
           </div>
 
-          <div className="footer-item">
+          <div className="footer-item ft2">
             <ul>
                 <li className='item--title'>
                 <span className='space'>Company</span>
@@ -38,7 +38,7 @@ export default function footer() {
             </ul>
           </div>
 
-          <div className="footer-item">
+          <div className="footer-item ft3">
             <ul>
                 <li className='item--title'>
                 <span className='space'>Connect</span>
