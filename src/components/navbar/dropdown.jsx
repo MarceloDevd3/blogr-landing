@@ -5,9 +5,9 @@ import arrowDark from '../images/icon-arrow-dark.svg';
 export default function dropdown() {
 
 
-   const [dropDownItem1, setDropDownItem1] = React.useState(false)
-   const [dropDownItem2, setDropDownItem2] =  React.useState(false)
-   const [dropDownItem3, setDropDownItem3] =  React.useState(true)
+   const [dropDownItem1, setDropDownItem1] = React.useState(false);
+   const [dropDownItem2, setDropDownItem2] =  React.useState(false);
+   const [dropDownItem3, setDropDownItem3] =  React.useState(false);
 
 
    const hundleDropItem1 = () => {
@@ -17,7 +17,6 @@ export default function dropdown() {
    const hundleDropItem2 = () => {
     setDropDownItem2(prev => !prev)
    }
-
 
    const hundleDropItem3 = () => {
     setDropDownItem3(prev => !prev)
@@ -46,7 +45,6 @@ export default function dropdown() {
               <h2>Company</h2>
               <img src={arrowDark} alt="arrow" className={dropDownItem1 ? ' dark arrow active' : 'arrow'}/>
               <img src={arrowLight} alt="arrow" className={dropDownItem1 ? 'white-arr arrow active' : 'arrow'}/>
-          
              </div>
             <div className={dropDownItem2 ? 'dp2 Dropdown--content active' : 'dp2 Dropdown--content'}>
               <ul>
@@ -62,7 +60,6 @@ export default function dropdown() {
               <h2>Connect</h2>
               <img src={arrowDark} alt="arrow" className={dropDownItem1 ? ' dark arrow active' : 'arrow'}/>
               <img src={arrowLight} alt="arrow" className={dropDownItem1 ? 'white-arr arrow active' : 'arrow'}/>
-        
              </div>
             <div className={dropDownItem3 ? 'dp3 Dropdown--content active' : 'dp3 Dropdown--content'}>
               <ul>
