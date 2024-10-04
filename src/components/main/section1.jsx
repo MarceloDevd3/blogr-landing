@@ -5,6 +5,7 @@ import editorIMGDesk from '../images/illustration-editor-desktop.svg';
 export default function Section1() {
     return (
         <section id="blogr-container">
+        
             <h3 className="blogr-title blue" id="ft-test">Designed for the future</h3>
             <div className='container'>
             <div id="info-blogr">

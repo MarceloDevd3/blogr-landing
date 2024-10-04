@@ -28,9 +28,10 @@ export default function dropdown() {
            <div className='dropdown' >
            <div className='Dropdown-title' onClick={hundleDropItem1}>
               <h2 >Product</h2> 
-              <img src={arrowDark} alt="arrow" className={dropDownItem1 ? 'arrow active' : 'arrow'}/>
+              <img src={arrowDark} alt="arrow" className={dropDownItem1 ? ' dark arrow active' : 'arrow'}/>
+              <img src={arrowLight} alt="arrow" className={dropDownItem1 ? 'white-arr arrow active' : 'arrow'}/>
             </div>
-            <div className={dropDownItem1 ? 'Dropdown--content active' : 'Dropdown--content'}>
+            <div className={dropDownItem1 ? 'dp1 Dropdown--content active' : 'dp1 Dropdown--content'}>
               <ul>
                 <li className='dropdown-item'> Overview</li>
                 <li className='dropdown-item'>Pricing</li>
@@ -43,9 +44,11 @@ export default function dropdown() {
            <div className='dropdown'>
            <div className='Dropdown-title' onClick={hundleDropItem2}>
               <h2>Company</h2>
-              <img src={arrowDark} alt="arrow" className={dropDownItem2 ? 'arrow active' : 'arrow'}/>
-            </div>
-            <div className={dropDownItem2 ? 'Dropdown--content active' : 'Dropdown--content'}>
+              <img src={arrowDark} alt="arrow" className={dropDownItem1 ? ' dark arrow active' : 'arrow'}/>
+              <img src={arrowLight} alt="arrow" className={dropDownItem1 ? 'white-arr arrow active' : 'arrow'}/>
+          
+             </div>
+            <div className={dropDownItem2 ? 'dp2 Dropdown--content active' : 'dp2 Dropdown--content'}>
               <ul>
                 <li className='dropdown-item'>About</li>
                 <li className='dropdown-item'>Team</li>
@@ -57,10 +60,11 @@ export default function dropdown() {
            <div className='dropdown' >
            <div className='Dropdown-title' onClick={hundleDropItem3}>
               <h2>Connect</h2>
-              
-              <img src={arrowDark} alt="arrow" className={dropDownItem3 ? 'arrow active' : 'arrow'}/>
-            </div>
-            <div className={dropDownItem3 ? 'Dropdown--content active' : 'Dropdown--content'}>
+              <img src={arrowDark} alt="arrow" className={dropDownItem1 ? ' dark arrow active' : 'arrow'}/>
+              <img src={arrowLight} alt="arrow" className={dropDownItem1 ? 'white-arr arrow active' : 'arrow'}/>
+        
+             </div>
+            <div className={dropDownItem3 ? 'dp3 Dropdown--content active' : 'dp3 Dropdown--content'}>
               <ul>
                 <li className='dropdown-item'>Contact</li>
                 <li className='dropdown-item'>Newsletter</li>
